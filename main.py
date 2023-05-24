@@ -4,8 +4,8 @@ def menu():
     print("\n==== Programming Quotes ====")
     print("1. Random quote")
     print("2. All quotes")
-    print("3. Finite number of quotes")
     print("4. Exit")
+    print("5. Finit number of quotes")
 
 def main():
     while True:
