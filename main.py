@@ -19,11 +19,11 @@ def main():
         elif choice == "2":
             view_quotes(quotes)
         elif choice == "3":
-            count = int(input("Enter the number of quotes to display: "))
-            display_quotes(quotes, count)
-        elif choice == "4":
             print("Good bye...")
             break
+        elif choice == "4":
+            count = int(input("Enter the number of quotes to display: "))
+            display_quotes(quotes, count)
         else:
             print("Invalid input")
 
