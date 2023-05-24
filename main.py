@@ -4,8 +4,9 @@ def menu():
     print("\n==== Programming Quotes ====")
     print("1. Random quote")
     print("2. All quotes")
-    print("4. Exit")
-    print("5. Finit number of quotes")
+    print("3. Exit")
+    print("4. Finit number of quotes")
+    print("5. Add quote")
 
 def main():
     while True:
@@ -18,6 +19,8 @@ def main():
             print_quote(random_quote(quotes))
         elif choice == "2":
             view_quotes(quotes)
+        elif choice == "4":
+            add_quote(quotes, quotes.txt)
         elif choice == "3":
             print("Good bye...")
             break
